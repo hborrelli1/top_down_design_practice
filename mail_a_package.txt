@@ -5,15 +5,20 @@ Mail a Package
     1.1.1 Read shipping list
   1.2 Gather Items
     1.2.1 Go through each list item and find product
-  1.3 Get bag
-    1.3.1 Place items in bag
+  1.3 Get transport bag
+    1.3.1 Place items to ship in bag
+  1.4 Get final destination
+    1.4.1 Locate address to ship to
+    1.4.2 Write down shipping address
+    1.4.3 Place address in bag
 
 2 Go to Post office
   2.1 Find nearest post office location
     2.1.1 Write down postal address
   2.2 Travel to post office
     2.2.1 Get in car with bag of items and drive to post office
-    2.2.2 Park car and enter post office
+    2.2.2 In navigation system enter post office address
+    2.2.3 Park car and enter post office
 
 3 Ship Items
   3.1 Purchase Box
