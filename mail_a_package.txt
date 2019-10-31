@@ -1,0 +1,28 @@
+Mail a Package
+
+1 Gather Items to ship
+  1.1 Review Order
+    1.1.1 Read shipping list
+  1.2 Gather Items
+    1.2.1 Go through each list item and find product
+  1.3 Get bag
+    1.3.1 Place items in bag
+
+2 Go to Post office
+  2.1 Find nearest post office location
+    2.1.1 Write down postal address
+  2.2 Travel to post office
+    2.2.1 Get in car with bag of items and drive to post office
+    2.2.2 Park car and enter post office
+
+3 Ship Items
+  3.1 Purchase Box
+    3.1.1 Find box that will adequately fit all Items
+    3.1.2 Place all items in Box
+    3.1.3 Close box and tape seams
+  3.2 Purchase Shipping Label
+    3.2.1 Input destination address
+    3.2.2 Print Label
+    3.2.3 Tape label onto box
+  3.5 Give to postal employee
+    3.5.1 Hand final package to postal attendant.
