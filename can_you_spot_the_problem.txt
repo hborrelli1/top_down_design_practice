@@ -1,0 +1,31 @@
+What would be wrong with…
+
+a class called Turing
+- Turing is more of an instance of the class School than an object.
+
+an attribute called current_time
+- The current is always changing
+
+having attributes for a Review class called one_star, two_stars, three_stars, etc.
+- This would make more sense to be contained in one attribute such as 'numOfStars'.
+
+a Senator class having an array attribute called senator_names
+- A Senator class would not have multiple senator names within a single instance. The attribute could just be name.
+
+a class called California
+- There really would only be one California. California should be an object of the class State.
+
+having attributes on a ShoppingCart class called item_one, item_two, item_three, etc.
+- Instead of attributes on the class, they should be items within an array of the attribute items_in_cart
+
+a method on GroceryStore called clean_aisle_seven
+- This should be done by the method clean_up(7)
+
+a Bottle class having an attribute called water
+- the attribute should be content with 'water' as the string. It's possible to contain something other than water.
+
+a Chair class having an attribute called number_of_chairs
+- A class of Chair would not have children chairs.
+
+a MenuItem class with a method called CustomerSurvey
+- If there was a survey for a specific MenuItem, it would need to start with a lowercase customerSurvey

@@ -1,0 +1,41 @@
+Vehicle (class)
+
+Attributes
+type (string)
+engineType (string)
+maxSpeed (integer)
+currentSpeed (integer)
+fuelType (string)
+wiperBlades (boolean)
+passengerCount (integer)
+passengerMax (boolean)
+hornOn (boolean)
+tirePressuePerWheel (array)
+
+Methods
+checkFuelType
+checkOccupancy (compare passengerCount to passengerMax)
+honkHorn (turns on horn till released)
+checkCurrentSpeed ()
+accelerate (increase currentSpeed)
+decelerate (decrease currentSpeed)
+
+Object #1
+Toyota Tacoma
+type: 'truck'
+engineType: 'combustion'
+maxSpeed: 160
+currentSpeed: 0
+fuelType: 'gasoline'
+wiperBlades: true
+passengerCount: 0
+passengerMax: 5
+hornOn: false
+tirePressurePerWheel: [40, 39, 37, 40]
+
+Methods
+checkFuelType (returns gasoline)
+checkOccupancy (returns 0)
+honkHorn (sets hornOn: true until released)
+accelerate (increase currentSpeed to 55)
+checkCurrentSpeed (returns 55)
